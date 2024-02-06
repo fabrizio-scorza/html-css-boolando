@@ -45,11 +45,19 @@ body{
 .page-header .row{
     justify-content: space-between;
     padding: 8px 12px;
+    align-items: center;
 }
 .link{
     display: flex;
     flex-wrap: wrap;
     gap: 8px;
+}
+.logo img{
+width: 120px;
+}
+.action img{
+    width: 20px;
+    margin:  0 4px;
 }
 
 /* MAIN STYLE */
