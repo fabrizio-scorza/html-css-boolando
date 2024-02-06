@@ -65,6 +65,7 @@ body{
     position: absolute;
     color: white;
     bottom: 30px; 
+    z-index: 10;
 }
 .discount{
     background-color: red;
@@ -72,7 +73,7 @@ body{
 .sostenibility{
     background-color: green;
 }
-.badge:nth-child(4){
+.badge:nth-child(2){
     left:36px;
 }
 .heart{
@@ -84,4 +85,19 @@ body{
     height: 36px;
     top: 4px;
     left: 90%;
+    z-index:10;
+}
+.overlay{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    opacity: 0;
+}
+.overlay:hover{
+    opacity: 1;
+}
+.heart:hover{
+    color: red;
 }
