@@ -72,3 +72,16 @@ body{
 .sostenibility{
     background-color: green;
 }
+.badge:nth-child(4){
+    left:36px;
+}
+.heart{
+    position: absolute;
+    background-color: white;
+    text-align: center;
+    font-size: 22px;
+    width: 36px;
+    height: 36px;
+    top: 4px;
+    left: 90%;
+}
