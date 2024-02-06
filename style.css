@@ -138,13 +138,40 @@ width: 120px;
     font-weight: 500;
     font-size: 16px;
     color: white;
+    padding: 20px 0;
 }
 .page-footer .row{
     justify-content: space-between;
+    align-items:flex-start;
 }
-.social{
+.info h4{
+    font-weight:700;
+    font-size:22px;
+}
+.info ul{
     display: flex;
     flex-wrap: wrap;
-    min-height: 50px;
-    gap:15px;
+    font-weight: 300;
+    font-style: italic;
+    font-size: 12px;
+}
+.info a{
+    padding-right:12px ;
+}
+.social ul,.social a{
+    display: flex;
+    flex-wrap: wrap;
+}
+.social h4{
+    font-size: 14px;
+    margin-bottom: 8px;
+}
+.social a{
+    margin-right: 8px;
+    background-color: white;
+    border-radius: 5px;
+}
+.social img{
+    width: 18px;
+    filter:invert(6%) sepia(5%) saturate(147%) hue-rotate(315deg) brightness(98%) contrast(91%);
 }
