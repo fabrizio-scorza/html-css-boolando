@@ -36,23 +36,39 @@ body{
 .page-content .col-4{
     padding:20px 12px;
 }
-.page-content .brand{
+.card-head{
+    position: relative;
+}
+.brand{
     font-weight: 400;
     font-size: 12px;
 }
-.page-content .description{
+.description{
     font-size: 14px;
     line-height: 12px;
 }
-.page-content .price, .first-price{
+.price, .first-price{
     font-size: 12px;
     position: relative;
     bottom: 4px;
 }
-.page-content .price{
+.price{
     font-weight: 700;
     color: red;
 }
-.page-content .first-price{
+.first-price{
     text-decoration: line-through;
+}
+.badge{
+    font-weight: 700;
+    font-size:14px ;
+    position: absolute;
+    color: white;
+    bottom: 30px; 
+}
+.discount{
+    background-color: red;
+}
+.sostenibility{
+    background-color: green;
 }
