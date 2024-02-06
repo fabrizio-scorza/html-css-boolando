@@ -32,8 +32,31 @@ body{
     width: calc(4*100%/12);
 }
 
+/* HEAD STYLE */
+.page-header{
+    background-color:#FF6900;
+    font-weight: 600;
+    font-size: 14px;
+    color:white;
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+}
+.page-header .row{
+    justify-content: space-between;
+    padding: 8px 12px;
+}
+.link{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
 /* MAIN STYLE */
-.page-content .col-4{
+.page-content {
+    padding: 60px 0;
+}
+.page-content .col-4 {
     padding:20px 12px;
 }
 .card-head{
@@ -100,4 +123,20 @@ body{
 }
 .heart:hover{
     color: red;
+}
+/* FOOTER STYLE */
+.page-footer{
+    background-color:#1A1A1A ;
+    font-weight: 500;
+    font-size: 16px;
+    color: white;
+}
+.page-footer .row{
+    justify-content: space-between;
+}
+.social{
+    display: flex;
+    flex-wrap: wrap;
+    min-height: 50px;
+    gap:15px;
 }
